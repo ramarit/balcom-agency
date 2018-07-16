@@ -1,6 +1,8 @@
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+
+/* Header */
 .header {
   position: relative;
   min-height: 200px;
@@ -31,6 +33,7 @@ body {
   color: #b0d136;
 }
 
+/* Page content */
 .page-content {
   padding-top: 20px;
 }
@@ -41,6 +44,7 @@ body {
   font-weight: bold;
 }
 
+/* Form */
 .form {
   margin-top: -25px;
   background: #b0d136;
@@ -79,7 +83,7 @@ textarea {
   overflow: scroll;
 }
 
-
+/* Button */
 .purple-background, 
 .purple-background:hover, 
 .purple-background:active, 
@@ -111,9 +115,10 @@ textarea {
     inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
 }
 
+
+/* Footer */
 .footer {
   margin-top: 150px;
-  /*padding: 10px;*/
 }
 
 .footer img {
@@ -128,6 +133,8 @@ textarea {
 .footer a {
   color: #7b2b83;
 }
+
+/* Media Queies */
 
 @media (max-width: 767px) {
   .form::after, .form::before {
